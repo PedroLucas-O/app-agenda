@@ -35,3 +35,35 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+$verde-claro:#b8e0d2;
+.card-data{
+    margin-top: 8px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#c5c5c5;
+    background-color: $verde-claro;
+}
+
+.card.conteiner{
+    margin-top: 6px;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: #ffffff;
+}
+
+.titulo-cor{
+    font-size: 18px;
+    margin: 4px;
+    color: #058a59;
+}
+
+.button{
+    background-color: #80cfa9;
+    color: #448a71;
+}
+
+.conteiner{
+    background-color: whitesmoke;
+}

@@ -1,6 +1,6 @@
 #container {
   text-align: center;
-
+  border-color: #EEEEEE;
   position: absolute;
   left: 0;
   right: 0;
@@ -17,11 +17,58 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
+  color: #EEEEEE;
 
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+// UI-DPS //
+
+ion-button {
+  --background: #31363F;
+  --background-hover: #31363F;
+  --background-activated: #31363F;
+  --background-focused: #31363F;
+
+  --color: #EEEEEE;
+
+  --border-radius: 0;
+  --border-color: #000;
+  --border-style: solid;
+  --border-width: 2px;
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
+
+.card-conteiner{
+  background-color: #31363F;
+}
+
+.titulo-cor{
+  background-color: #31363F;
+  color: #76ABAE;
+}
+
+.card-data{
+  background-color: #31363F;
+  border-color: #000;
+  border-width: 2px;
+}
+
+ .datatime-button{
+  background-color: #31363F;
+ }
+
+#datetime-text{
+  background-color: #31363F;  
+  color: #EEEEEE;
+}
+
+.datetime{
+  background-color: #31363F;
 }
